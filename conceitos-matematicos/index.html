@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Atividade Números</title>
+</head>
+
+<body>
+
+  <section>
+    <h2>Calculadora</h2>
+  
+    <input type="number" id="num1" >
+    <input type="number" id="num2">
+    <button onclick="somar()">+</button>
+    <button onclick="multiplicar()">x</button>
+    <button onclick="dividir()">÷</button>
+    <button onclick="subtrair()">-</button>
+    <p id="resultado">RESULTADO</p>
+
+</section>
+
+
+  <h2>Cálculo de Média</h2>
+  <form>
+            <label for="notaB1">B1</label>
+            <input type="number" id="notaB1" name="notaB1">
+            <label for="notaB2">B2</label>
+            <input type="number" id="notaB2" name="notaB2">
+            <label for="notaB3">B3</label>
+            <input type="number" id="notaB3" name="notaB3">
+            <label for="notaB4">B4</label>
+            <input type="number" id="notaB4" name="notaB4">
+        </form>
+  <button onclick="calcularMedia()">calcular media</button>
+  <p id="media"></p>
+    </div>
+  
+  <h2>Cálculo de Fatorial</h2>
+  <input type="number" id="fatorial">
+  <button onclick="calcularFatorial()">Calcular</button>
+  <p id="resultado-fatorial"></p>
+
+  <h2>Verificar Número Inteiro</h2>
+  <input type="number" id="inteiro">
+  <button onclick="verificarInteiro()">Verificar</button>
+  <p id="resultado-inteiro"></p>
+
+  <h2>Valor Absoluto</h2>
+  <input type="number" id="absoluto">
+  <button onclick="calcularValorAbsoluto()">Calcular</button>
+  <p id="resultado-absoluto"></p>
+
+  <h2>Geração de Número Aleatório</h2>
+  <input type="number" id="min" placeholder="Valor mínimo">
+  <input type="number" id="max" placeholder="Valor máximo">
+  <button onclick="gerarNumeroAleatorio()">Gerar</button>
+  <p id="resultado-aleatorio"></p>
+
+  <h2>Verificar Par ou Ímpar</h2>
+  <input type="number" id="par-impar">
+  <button onclick="verificarParImpar()">Verificar</button>
+  <p id="resultado-par-impar"></p>
+
+  <h2>Comparação de Números</h2>
+  <input type="number" id="num1-comparacao">
+  <input type="number" id="num2-comparacao">
+  <button onclick="compararNumeros()">Comparar</button>
+  <p id="resultado-comparacao"></p>
+
+  <h2>Verificar Idade</h2>
+  <input type="number" id="idade">
+  <button onclick="verificarIdade()">Verificar</button>
+  <p id="resultado-idade"></p>
+
+  <h2>Verificar Dia da Semana</h2>
+  <input type="text" id="dia-semana" placeholder="Digite o dia da semana">
+  <button onclick="verificarDiaSemana()">Verificar</button>
+  <p id="resultado-dia-semana"></p>
+</body>
+<script src="script.js"></script>
+</html>
