@@ -1,0 +1,71 @@
+html {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-color: #F0FFFF;
+  }
+  
+  h1 {
+    color: #008B8B;
+    font-family: "Helvetica";
+    font-size: 50px;
+    text-align: center;
+  }
+  
+  .p {
+    color: black;
+    font-size: 30px;
+    font-family: "Helvetica";
+  }
+  
+  input {
+    width: 50px;
+    background-color: #B0E0E6;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  button {
+    background-color: #B0E0E6;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  
+  section {
+    background-color: #E0FFFF;
+    border-radius: 15px;
+    width: 50%;
+    height: 50%;
+  }
+  
+  .contador {
+    display: inline-block;
+  }
+  
+  .mensagem {
+    text-align: center;
+    font-size: 55px;
+    margin-top: 260px;
+    color: black;
+  
+  }
+  
+  .vitoria {
+    text-align: center;
+    font-size: 55px;
+    margin-top: 260px;
+    color: black;
+  }
+  
+  #aviso {
+    color: black;
+    font-size: 17px;
+    font-family: "Helvetica";
+  }
+  
+  #cronometro {
+    margin-top: 150px;
+    font-size: 35px;
+  }
